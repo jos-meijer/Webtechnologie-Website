@@ -1,4 +1,4 @@
-Onze website voor het vak Webtechnologie aan de Hanzehogeschool Groningen.
+Website voor het vak Webtechnologie aan de Hanzehogeschool Groningen.
 
 Opdrachtomschrijving:
 Binnen het HBO-onderwijs spelen stages een belangrijke rol. Het is daarom ook belangrijk om de gegevens van de stages goed vast te leggen.
