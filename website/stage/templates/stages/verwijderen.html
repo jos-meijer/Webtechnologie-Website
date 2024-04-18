@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="jumbotron">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <h1 class="display-4">Foutje gemaakt?</h1>
+                <p class="lead">Vul het ID van de student in en klik op verwijderen.</p>
+                <form method="POST">
+                    {# This hidden_tag is a CSRF security feature. #}
+                    {{ form.hidden_tag() }}
+                    <div class="form-group">
+                        <label for="id" class="form-label">ID van de stage:</label>
+                        {{ form.id(class="form-control") }}
+                    </div>
+                    <div class="form-group">
+                        {{ form.submit(class="btn btn-danger") }}
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
